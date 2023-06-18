@@ -65,3 +65,10 @@ footer .footer span a {
 footer .footer span a:hover {
   text-decoration: underline;
 }
+
+@media print {
+  #printframe .div {
+    width: auto !important;
+    height: 300pt !important;
+  }
+}
